@@ -58,7 +58,7 @@ const Navbar = () => {
                             
                             {/* Navbar Button */}
                             <div className="theme-btn">
-                                <Link to="/">Book appointment</Link>
+                                <Link to="/contact">Book appointment</Link>
                             </div>
                         </div>
                     </div>
