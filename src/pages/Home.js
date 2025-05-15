@@ -8,6 +8,7 @@ import Expert from '../sections/Expert/Expert';
 import Testimonial from '../sections/Testimonial/Testimonial';
 import Blogs from '../sections/Blogs/Blogs';
 import Appointment from '../sections/Appointment/Appointment';
+import Footer from '../sections/Footer/Footer'
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <Testimonial />
             <Blogs />
             <Appointment />
+            <Footer />
         </>
     );
 };
