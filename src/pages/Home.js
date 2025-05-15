@@ -4,6 +4,7 @@ import Banner from '../sections/Banner/Banner';
 import Services from '../sections/Services/Services';
 import Emergency from '../sections/Emergency/Emergency';
 import Features from '../sections/Features/Features';
+import Expert from '../sections/Expert/Expert';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Services />
             <Emergency />
             <Features />
+            <Expert />
         </>
     );
 };
