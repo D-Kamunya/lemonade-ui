@@ -6,7 +6,8 @@ import Emergency from '../sections/Emergency/Emergency';
 import Features from '../sections/Features/Features';
 import Expert from '../sections/Expert/Expert';
 import Testimonial from '../sections/Testimonial/Testimonial';
-import Blogs from '../sections/Blogs/Blogs'
+import Blogs from '../sections/Blogs/Blogs';
+import Appointment from '../sections/Appointment/Appointment';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Expert />
             <Testimonial />
             <Blogs />
+            <Appointment />
         </>
     );
 };
