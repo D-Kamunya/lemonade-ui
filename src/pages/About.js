@@ -15,7 +15,6 @@ const About = () => {
             <Priority />
             <Safety />
             <Team />
-            <Faq />
             <Footer />
         </>
     );

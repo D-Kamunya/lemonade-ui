@@ -5,7 +5,7 @@ import Services from './pages/Services';
 import ContactUs from './pages/Contact/Contactus';
 import BlogsPage from './pages/BlogsPage';
 import SingleBlog from './pages/SingleBlog/SingleBlog';
-
+import Faqs from './pages/Faqs';
 import {Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
       <Route path='/contact' element={<ContactUs/>} />
       <Route path='/blogs' element={<BlogsPage/>} />
       <Route path="/blog/:url" element={<SingleBlog />} />
+      <Route path="/faqs" element={<Faqs />} />
     </Routes>
   );
 }

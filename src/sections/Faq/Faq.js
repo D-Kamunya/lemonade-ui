@@ -7,7 +7,7 @@ const Faq = () => {
         <section className='faq-section pt-100 pb-70' data-aos="fade-up" data-aos-duration="2000">
             <div className="container">
                 <SectionTitle
-                    subTitle="FAQ"
+                    subTitle="FAQS"
                     title="Frequently asked question"
                 />
 
