@@ -2,7 +2,7 @@ import './App.scss';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
-import ContactUs from './pages/Contact/ContactUs';
+import ContactUs from './pages/Contact/Contactus';
 import BlogsPage from './pages/BlogsPage';
 import SingleBlog from './pages/SingleBlog/SingleBlog';
 

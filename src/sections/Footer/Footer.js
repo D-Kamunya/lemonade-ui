@@ -12,11 +12,11 @@ const Footer = () => {
     const footerMenu = [
         {
             'name' : 'About Us',
-            'link' : '/'
+            'link' : '/about'
         },
         {
             'name' : 'Dental Services',
-            'link' : '/'
+            'link' : '/services'
         },
         {
             'name' : 'Lemonade Dental Clinic',
@@ -24,11 +24,11 @@ const Footer = () => {
         },
         {
             'name' : 'Blogs',
-            'link' : '/'
+            'link' : '/blogs'
         },
         {
             'name' : 'FAQs',
-            'link' : '/'
+            'link' : '/faqs'
         }
     ];
 
@@ -40,7 +40,7 @@ const Footer = () => {
         },
         {
             'title': 'Open Hour',
-            'info': '24/7',
+            'info': '24H',
             'icon': time
         },
         {
@@ -74,7 +74,7 @@ const Footer = () => {
                             <p>Quick Links</p>
                             <ul>
                                 {
-                                    footerMenu.map(singleMenu => <li><Link to="/">{singleMenu.name}</Link></li>)
+                                    footerMenu.map(singleMenu => <li><Link to={singleMenu.link}>{singleMenu.name}</Link></li>)
                                 }
                             </ul>
                         </div>

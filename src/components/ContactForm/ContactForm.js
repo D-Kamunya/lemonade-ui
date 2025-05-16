@@ -57,8 +57,8 @@ const ContactForm = () => {
                             <img src={icon} alt="icon" />
                         </div>
                         <div className='call-text'>
-                            <p>Dental 24H Emergency</p>
-                            <h6>03 482 394 123</h6>
+                            <p>Lemonade Dental Clinic 24H Emergency</p>
+                            <h6><a href="tel:+254 757 117 313">+254 757 117 313</a></h6>
                         </div>
                     </div>
                 </div>

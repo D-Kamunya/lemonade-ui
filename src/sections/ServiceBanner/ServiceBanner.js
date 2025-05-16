@@ -5,7 +5,7 @@ import serviceBanner from '../../assets/servicePage/1.png';
 
 const ServiceBanner = () => {
     return (
-        <section className='service-banner-section section-common section-bg' data-aos="fade-up" data-aos-duration="2000">
+        <section className='service-banner-section section-common section-bg'>
             <div className="d-table">
                 <div className="d-table-cell">
                     <div className="container">

@@ -4,6 +4,12 @@
     border-radius: 32px;
     text-align: center;
     margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
 
     .icon-area {
         background: #DBDEFA;
@@ -17,19 +23,45 @@
     }
 
     .service-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+
         h3 {
             font-size: 20px;
             font-weight: 700;
             margin-bottom: 20px;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            white-space: normal;
 
             a {
                 text-decoration: none;
                 color: #181945;
+                display: inline-block;
+                max-width: 100%;
             }
         }
 
         p {
             font-size: 14px;
+            min-height: 60px; // Ensures consistent height
+            color: #444;
+        }
+
+        .read-more {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 13px;
+            color: #007bff;
+            text-decoration: none;
+            margin-top: 10px;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }

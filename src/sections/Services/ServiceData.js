@@ -7,46 +7,46 @@ import iconSix from '../../assets/service/6.png';
 import iconSeven from '../../assets/service/7.png';
 import iconEight from '../../assets/service/8.png';
 const ServicesData = [
-    {
-        'icon': iconOne,
-        'title': 'Consultation',
-        'description': 'Adults 1000',
-    },
-    {
-        'icon': iconTwo,
-        'title': 'Clinicals',
-        'description': 'Lorem ipsum is placeholder text commonly used in the graphic,',
-    },
-    {
-        'icon': iconThree,
-        'title': 'X-Rays',
-        'description': 'Lorem ipsum is placeholder text commonly used in the graphic,',
-    },
-    {
-        'icon': iconFour,
-        'title': 'Reconstruction Procedures',
-        'description': 'Lorem ipsum is placeholder text commonly used in the graphic,',
-    },
-    {
-        'icon': iconFive,
-        'title': 'Endodontics',
-        'description': 'Lorem ipsum is placeholder text commonly used in the graphic,',
-    },
-    {
-        'icon': iconSix,
-        'title': 'Restorative Dentistry(Replacement)',
-        'description': 'Lorem ipsum is placeholder text commonly used in the graphic,',
-    },
-    {
-        'icon': iconSeven,
-        'title': 'Permanent Replacement',
-        'description': 'Lorem ipsum is placeholder text commonly used in the graphic,',
-    },
-    {
-        'icon': iconEight,
-        'title': 'Cosmetic Dentistry',
-        'description': 'Lorem ipsum is placeholder text commonly used in the graphic,',
-    }
-]
+  {
+    icon: iconOne,
+    title: 'Consultation',
+    description: 'Get expert dental evaluation and guidance. Adults: 500/-, Kids: 300/-',
+  },
+  {
+    icon: iconTwo,
+    title: 'Clinicals',
+    description: 'Tooth extractions and impacted tooth removal. Adults: 1,000/-, Kids: 500/-',
+  },
+  {
+    icon: iconThree,
+    title: 'X-Rays',
+    description: 'High-quality dental imaging (OPG, IOPA). Includes reporting from 500/-',
+  },
+  {
+    icon: iconFour,
+    title: 'Reconstruction Procedures',
+    description: 'Tooth fillings, masking, polishing, stain removal, and kuosha starting at 1,000/-',
+  },
+  {
+    icon: iconFive,
+    title: 'Endodontics',
+    description: 'Root canal therapy & pulpectomy from 4,500/- per tooth',
+  },
+  {
+    icon: iconSix,
+    title: 'Restorative Dentistry (Replacement)',
+    description: 'Partial/complete dentures & repairs. Acrylic and flexible options available.',
+  },
+  {
+    icon: iconSeven,
+    title: 'Permanent Replacement',
+    description: 'Crowns and implants for lasting dental restoration. Crowns from 5K/unit',
+  },
+  {
+    icon: iconEight,
+    title: 'Cosmetic Dentistry',
+    description: 'Whitening, braces, tooth gems & piercings to enhance your smile',
+  }
+];
 
 export default ServicesData;
