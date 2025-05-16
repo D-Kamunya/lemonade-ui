@@ -6,7 +6,7 @@ import ServiceBanner from '../sections/ServiceBanner/ServiceBanner';
 import Symptoms from '../sections/Symptoms/Symptoms';
 import Appointment from '../sections/Appointment/Appointment';
 
-const Services = () => {
+const ServiceDetails = () => {
     return (
         <>
             <Navbar />
@@ -19,4 +19,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default ServiceDetails;

@@ -19,9 +19,9 @@ const Service = ({serviceList}) => {
                         </div>
                     </div>
                     <div className="service-text">
-                        <h3><Link to="/services">{title}</Link></h3>
+                        <h3><Link to="/servicedetails">{title}</Link></h3>
                         <p>{truncate(description)}</p>
-                        <Link to="/services" className="read-more">
+                        <Link to="/servicedetails" className="read-more">
                             Read More <ArrowRight size={14} />
                         </Link>
                     </div>

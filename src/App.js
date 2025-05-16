@@ -1,7 +1,8 @@
 import './App.scss';
 import Home from './pages/Home';
 import About from './pages/About';
-import Services from './pages/Services';
+import AllServices from './pages/AllServices';
+import ServiceDetails from './pages/ServiceDetails';
 import ContactUs from './pages/Contact/Contactus';
 import BlogsPage from './pages/BlogsPage';
 import SingleBlog from './pages/SingleBlog/SingleBlog';
@@ -13,7 +14,8 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>} />
       <Route path='/about' element={<About/>} />
-      <Route path='/services' element={<Services/>} />
+      <Route path='/services' element={<AllServices/>} />
+      <Route path='/servicedetails' element={<ServiceDetails/>} />
       <Route path='/contact' element={<ContactUs/>} />
       <Route path='/blogs' element={<BlogsPage/>} />
       <Route path="/blog/:url" element={<SingleBlog />} />

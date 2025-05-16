@@ -7,13 +7,13 @@ import { Link } from 'react-router-dom';
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 
-const Services = () => {
+const Services = ({page}) => {
     return (
         <section className='service-section pt-100 pb-70' data-aos="fade-up" data-aos-duration="2000">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-sm-6">
-                        <SectionTitle title="Feel amazing about your oral health" subTitle="Services"/>
+                        <SectionTitle title="Feel amazing about your oral health" subTitle="Our Services"/>
                     </div>
                     <div className="col-lg-6 col-sm-6">
                         <p className='service-title-text'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
@@ -26,13 +26,15 @@ const Services = () => {
                     }
                 </div>
             </div>
-
-            <div className="services-link text-center">
-                <Link to='/'>
-                    View all service list
-                    <BsFillArrowRightCircleFill/>
-                </Link>
-            </div>
+            {page == 'True' ? '': 
+                <div className="services-link text-center">
+                    <Link to='/services'>
+                        View all service list
+                        <BsFillArrowRightCircleFill/>
+                    </Link>
+                </div>
+            }
+            
         </section>
     );
 };
