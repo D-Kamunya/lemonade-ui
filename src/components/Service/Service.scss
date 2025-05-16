@@ -15,14 +15,14 @@
             margin: auto;
         }
     }
-    
+
     .service-text {
         h3 {
             font-size: 20px;
             font-weight: 700;
             margin-bottom: 20px;
-            
-            a{
+
+            a {
                 text-decoration: none;
                 color: #181945;
             }
@@ -30,6 +30,33 @@
 
         p {
             font-size: 14px;
+        }
+    }
+}
+
+// Small Device Responsive
+@media (min-width: 576px) and (max-width: 767px) {
+    .service-box {
+        .icon-area {
+            padding: 50px;
+        }
+    }
+}
+
+// Medium Device Responsive
+@media (min-width: 768px) and (max-width: 991px) {
+    .service-box {
+        .icon-area {
+            padding: 50px;
+        }
+    }
+}
+
+// Medium Device Responsive
+@media (min-width: 992px) and (max-width: 1199px) {
+    .service-box {
+        .icon-area {
+            padding: 50px;
         }
     }
 }

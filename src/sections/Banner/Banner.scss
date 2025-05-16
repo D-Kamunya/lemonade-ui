@@ -2,7 +2,7 @@
 
 .banner-section {
     height: 800px;
-    margin-top: 115px;
+    margin-top: 100px;
     position: relative;
     z-index: 1;
 
@@ -64,7 +64,7 @@
             }
             
             .call-text {
- 
+
                 p {
                     font-size: 14px;
                     text-transform: uppercase;
@@ -107,7 +107,7 @@
 
         .info-text {
             text-align: left;
-
+            
             p {
                 margin-bottom: 0;
                 color: $color-black;
@@ -146,4 +146,179 @@
 
     }
 
+}
+
+
+// Mobile Responsive
+@media (max-width: 575px) {
+
+    // Banner CSS
+    .banner-section {
+        height: 100%;
+        margin-top: 70px
+    }
+    .banner-img-area {
+        .banner-img {
+            margin-bottom: 0;
+        }
+
+        .shapes {
+            img {
+                &:nth-child(1) {
+                    max-width: 70px ;
+                }
+            }
+        }
+        
+    }
+    .banner-text {
+        text-align: center;
+        padding-top: 30px;
+        
+        h1 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .banner-bottom {
+            margin-top: 40px;
+            margin-bottom: 30px;
+            display: block;
+    
+            .theme-btn {
+                margin-right: 0px;
+                margin-bottom: 20px;
+                
+                a {
+                    padding: 15px 20px;
+                }
+            }
+    
+            .banner-call {
+                justify-content: center;
+
+                .call-text {
+                    text-align: left;
+                    p {
+                        font-size: 12px;
+                    }
+    
+                    h6 {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    // Banner CSS
+    .banner-section {
+        height: 100%;
+        margin-top: 70px
+    }
+    .banner-img-area {
+        .banner-img {
+            margin-bottom: 0;
+        }
+
+        .shapes {
+            img {
+                &:nth-child(1) {
+                    max-width: 70px ;
+                }
+            }
+        }
+        
+    }
+    .banner-text {
+        text-align: center;
+        padding-top: 30px;
+        
+        h1 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .banner-bottom {
+            margin-top: 40px;
+            margin-bottom: 30px;
+            display: block;
+    
+            .theme-btn {
+                margin-right: 0px;
+                margin-bottom: 20px;
+                
+                a {
+                    padding: 15px 20px;
+                }
+            }
+    
+            .banner-call {
+                justify-content: center;
+
+                .call-text {
+                    text-align: left;
+                    p {
+                        font-size: 12px;
+                    }
+    
+                    h6 {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Medium Devices Responsive
+@media (min-width: 768px) and (max-width: 991px) {
+    // Banner CSS
+    .banner-section {
+        height: 100%;
+        margin-top: 70px
+    }
+    .banner-img-area {
+        .banner-img {
+            margin-bottom: 0;
+        }
+
+        .shapes {
+            img {
+                &:nth-child(1) {
+                    max-width: 70px ;
+                }
+            }
+        }
+        
+    }
+    .banner-text {
+        text-align: center;
+        padding-top: 30px;
+        
+        h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .banner-bottom {
+            justify-content: center;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner-text  {
+        h1 {
+            font-size: 45px;
+            margin-bottom: 25px;
+        } 
+
+        .banner-bottom {
+            margin-top: 40px;
+        }
+    }  
 }

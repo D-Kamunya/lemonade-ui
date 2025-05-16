@@ -14,3 +14,16 @@
     }
 
 }
+
+// Mobile Responsive
+@media (max-width:575px){
+    .symptoms-section {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width:576px) and (max-width: 767px){
+    .symptoms-section {
+        margin-top: 50px;
+    }
+}
