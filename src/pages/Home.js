@@ -11,18 +11,19 @@ import Appointment from '../sections/Appointment/Appointment';
 import Footer from '../sections/Footer/Footer'
 
 const Home = () => {
+
     return (
         <>
-            <Navbar />
-            <Banner />
-            <Services />
-            <Emergency />
-            <Features />
-            <Expert />
-            <Testimonial />
-            <Blogs />
-            <Appointment />
-            <Footer />
+            <Navbar/>
+            <Banner/>
+            <Services/>
+            <Emergency/>
+            <Features/>
+            <Expert/>
+            <Testimonial/>
+            <Blogs/>
+            <Appointment/>
+            <Footer/>
         </>
     );
 };
