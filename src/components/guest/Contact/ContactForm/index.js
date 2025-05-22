@@ -1,0 +1,70 @@
+import React from 'react';
+import './styles.scss';
+import icon from '../../../../assets/images/banner/icons/Calling.png';
+
+const ContactForm = () => {
+    return (
+        <form>
+            <div className="row">
+                <div className="col-lg-6">
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your first name..." />
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your last name..." />
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <div class="form-group">
+                        <label>E-mail Address</label>
+                        <input type="email" class="form-control" placeholder="Enter email address..." />
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="telephone" class="form-control" placeholder="Enter phone number..." />
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <div class="form-group">
+                        <label>Service</label>
+                        <select class="form-control">
+                            <option>Teeth Whitening</option>
+                            <option>Teeth Whitening</option>
+                            <option>Teeth Whitening</option>
+                            <option>Teeth Whitening</option>
+                        </select>
+                    </div>
+                </div>
+                <div className="col-lg-12">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Messages</label>
+                        <textarea class="form-control" placeholder='Enter your messages...' rows="3"></textarea>
+                    </div>
+                </div>
+
+                <div className="col-lg-6">
+                    <button type="submit" class="btn appointment-btn">Book an appointment</button>
+                </div>
+                <div className="col-lg-6">
+                    <div className="appointment-call">
+                        <div className='icon'>
+                            <img src={icon} alt="icon" />
+                        </div>
+                        <div className='call-text'>
+                            <p>Lemonade Dental Clinic 24H Emergency</p>
+                            <h6><a href="tel:+254 757 117 313">+254 757 117 313</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    );
+};
+
+export default ContactForm;
